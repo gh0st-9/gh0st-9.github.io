@@ -17,19 +17,6 @@
     
     
     <entry>
-      <title></title>
-      <link href="/2022/06/13/%E9%97%AE%E9%A2%98/"/>
-      <url>/2022/06/13/%E9%97%AE%E9%A2%98/</url>
-      
-        <content type="html"><![CDATA[<p>1、[BUUCTF]Easybypass代码没审明白啊</p><p>2、[GXYCTF2019]Ping Ping    $a为什么可以操作</p><p><strong>3、fuzz为啥我的482少的很</strong></p><p>4、老生常谈的问题，注释符到底怎么闭合以及怎么判断确定一定是这样闭合的</p><p>5、不理解为什么这样不行</p><p><img src="C:\Users\Windflower\AppData\Roaming\Typora\typora-user-images\image-20211115195723212.png" alt="image-20211115195723212"></p><p>但是这样却可以</p><p><img src="C:\Users\Windflower\AppData\Roaming\Typora\typora-user-images\image-20211115200200684.png" alt="image-20211115200200684"></p><p>迷惑</p><p>6、[ACTF2020 新生赛]Exec中的引号 是怎么加的还是没搞清楚</p><p>7、web2两个&#x3D;&#x3D;？</p><p>8、为什么要加个反斜杠<img src="C:\Users\Windflower\AppData\Roaming\Typora\typora-user-images\image-20211123140731503.png" alt="image-20211123140731503"></p><p>9、前面的括号是不是相当于”“</p><p><img src="C:\Users\Windflower\AppData\Roaming\Typora\typora-user-images\image-20211123142615725.png" alt="image-20211123142615725"></p><p>10、[MRCTF2020]Ez中php代码有些没理解</p><p>11、[BUUCTF 2018]Online Tool中payload的构造没搞懂</p><p>12、**’ + “a”*(1000000) + ‘**这一段没弄懂</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="comment">### 不知道为啥这里用 || 不可以执行我们的命令</span></span><br><span class="line">payload = <span class="string">&#x27;&#123;&quot;cmd&quot;:&quot;/bin/cat /home/rceservice/flag &quot;,&quot;lala&quot;:&quot;&#x27;</span> + <span class="string">&quot;a&quot;</span>*(<span class="number">1000000</span>) + <span class="string">&#x27;&quot;&#125;&#x27;</span> <span class="comment">##超过一百万，这里写一千万不会出结果。</span></span><br><span class="line"></span><br><span class="line">res = requests.post(<span class="string">&quot;http://1e934d3c-e394-4cae-8dfb-533d812cc5b8.node4.buuoj.cn:81/&quot;</span>, data=&#123;<span class="string">&quot;cmd&quot;</span>:payload&#125;)</span><br><span class="line"><span class="built_in">print</span>(res.text)</span><br></pre></td></tr></table></figure><p>13、这个语句是先给了还是自己推的，怎么腿的？</p><p>14、这个库名是错的？</p><p><img src="C:\Users\Windflower\AppData\Roaming\Typora\typora-user-images\image-20211212105537564.png" alt="image-20211212105537564"></p><p>15、卖弄.php中的<code>\\</code>不知道是什么意思</p><p><img src="C:\Users\Windflower\AppData\Roaming\Typora\typora-user-images\image-20211216153206068.png" alt="image-20211216153206068"></p><p>16、这一步真看不懂了</p><p><img src="C:\Users\Windflower\AppData\Roaming\Typora\typora-user-images\image-20211216192718250.png" alt="image-20211216192718250"></p><p>17、加个反斜刚<code>\</code>就绕过<strong>in_array</strong>的原理是什么</p><p>18、tp3.2.3最后怎么上传shell啊？</p><p>19、为啥不可用$value,$filter   thinkphp5</p><p><img src="C:\Users\Windflower\AppData\Roaming\Typora\typora-user-images\image-20220114170742640.png" alt="image-20220114170742640"></p><p>21:</p><p><img src="C:\Users\Windflower\AppData\Roaming\Typora\typora-user-images\image-20220119172324588.png" alt="image-20220119172324588"></p><p>这个题input用不了？？？》</p><p>22.bmzctf ssrfme为什么要两个path？</p><p><img src="C:\Users\Windflower\AppData\Roaming\Typora\typora-user-images\image-20220318115547840.png" alt="image-20220318115547840"></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>记第一场AWD</title>
       <link href="/2021/11/23/AWD/"/>
       <url>/2021/11/23/AWD/</url>
