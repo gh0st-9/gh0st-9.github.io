@@ -4,7 +4,7 @@
   
     
     <entry>
-      <title>0ctf_buggyLoader</title>
+      <title>Hessian反序列化</title>
       <link href="/2023/03/25/Hessian/"/>
       <url>/2023/03/25/Hessian/</url>
       
@@ -25,19 +25,6 @@
             <tag> Hessian </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/2023/03/21/2022%20N1CTF%20JAVA/"/>
-      <url>/2023/03/21/2022%20N1CTF%20JAVA/</url>
-      
-        <content type="html"><![CDATA[<h1 id="2022-N1CTF-JAVA"><a href="#2022-N1CTF-JAVA" class="headerlink" title="2022 N1CTF JAVA"></a>2022 N1CTF JAVA</h1><h2 id="Easy-S2"><a href="#Easy-S2" class="headerlink" title="Easy_S2"></a>Easy_S2</h2>]]></content>
-      
-      
       
     </entry>
     
