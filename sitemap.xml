@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://gh0st.com.cn/2023/11/03/0xGame/</loc>
+    
+    <lastmod>2023-11-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://gh0st.com.cn/2023/10/25/%E9%9B%B6%E9%9B%B6%E6%95%A3%E6%95%A3/</loc>
     
     <lastmod>2023-10-25</lastmod>
@@ -527,6 +536,13 @@
   
   <url>
     <loc>https://gh0st.com.cn/tags/java/</loc>
+    <lastmod>2023-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gh0st.com.cn/tags/competition/</loc>
     <lastmod>2023-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
